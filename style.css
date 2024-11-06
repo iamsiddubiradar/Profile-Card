@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font:"Poppins" Arial,sans-serif;
+}
+body{
+  background: floralwhite;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.profile-card{
+   background: white;
+   border-radius: 10px;
+   max-width: 100%;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+}
+.profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background: orange;
+   border-radius: 10px 10px 0 0;
+}
+.profile img{
+   height: 100px;
+   border-radius: 50%;
+   border: 2px solid transparent;
+   align-self: center;
+   box-shadow: 2px 4px 8px rgba(0, 0, 0, .7)
+}
+.content {
+   padding: 10px;
+}
+.content h1{
+   font-size: 30px;
+   font-weight: 800;
+}
+.content h1, p{
+   text-align: center;
+   text-transform: uppercase;
+}
+.social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.social-links{
+   background: blue;
+   border-radius: 20px;
+   margin-right: 5px;
+}
+.social-links i{
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}
+.likes{
+   margin: 20px;
+}
+.icons{
+   display: flex;
+   justify-content: center;
+}
+#middle{
+   border-left: solid #000;
+   border-right: solid #000;
+}
+.icons i{
+   padding: 0 10px;
+}
